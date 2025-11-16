@@ -1,7 +1,7 @@
 import './somos.scss'
 import Cabecalho from "../components/cabecalho/cabecalho.jsx";
 import Rodape from "../components/rodape/rodape.jsx";
-import CardColab from "../components/CardsColabs/cardscolabs.jsx";
+import CardColab from "../components/cardscolabs/cardscolabs.jsx";
 import { useState, useEffect } from "react";
 import CabecalhoLogado from '../components/cabecalhoLogado/cabecalho.jsx';
 import { Link } from 'react-router'
