@@ -12,16 +12,16 @@
     "react-router-dom": "^7.9.4",
     "react-toastify": "^11.0.5",
     "remark-gfm": "^4.0.1",
-    "sass": "^1.93.2",
-    "vite": "^7.1.10"
+    "sass": "^1.93.2"
   },
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "react-scripts build",
     "preview": "vite preview"
   },
   "devDependencies": {
-    "@vitejs/plugin-react": "^5.0.4"
+    "@vitejs/plugin-react": "^5.0.4",
+    "vite": "^7.2.2"
   }
 }
