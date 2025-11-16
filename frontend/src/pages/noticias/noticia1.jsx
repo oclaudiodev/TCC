@@ -57,7 +57,7 @@ export default function Noticia() {
             <div className="voltar-noticia">
                 <Link to="/tdsntc" onClick={() => window.scrollTo(0, 0)}>
                     <button className="voltar">
-                        <img src="/src/assets/images/setaEsquerda.png" height={25} />
+                        <img src="/images/setaEsquerda.png" height={25} />
                     </button>
                     <p className='josefin-sans'>Voltar para as notícias</p>
                 </Link>

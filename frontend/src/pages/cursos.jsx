@@ -55,7 +55,7 @@ export default function Cursos() {
             <div className='voltar-cursos'>
                 <Link to={"/"} onClick={() => window.scrollTo(0, 0)}>
                     <button className='voltar'>
-                        <img src="/src/assets/images/setaEsquerda.png" height={25} />
+                        <img src="/images/setaEsquerda.png" height={25} />
                     </button>
                     <p className='averare-sans'>Voltar para a página Inicial</p>
                 </Link>

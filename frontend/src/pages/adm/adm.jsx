@@ -28,7 +28,7 @@ export default function Adm(){
             </aside>
 
         <main className='conteudo'>
-            <img className='logoanimada' src="/src/assets/images/logoVeio.png" alt="" />
+            <img className='logoanimada' src="/images/logoVeio.png" alt="" />
         </main>
 
         </div>

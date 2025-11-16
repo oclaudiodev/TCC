@@ -93,7 +93,7 @@ export default function Comeco() {
 <div className="faq">
     <FAQ />
     <div className="Faq-img">
-        <img src="/src/assets/images/faq-img.png" height={400}/>
+        <img src="/images/faq-img.png" height={400}/>
     </div>
 </div>
 

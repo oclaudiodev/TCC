@@ -18,9 +18,9 @@ export default function Inicio() {
                     </div>
                     <div className="txtxt">
                         <h3 className="josefin-sans ">AQUI VOCÊ ENCONTRA:</h3>
-                        <h3 className="average-sans "> <img className="imgage" src="/src/assets/images/setaEsquerda.png"></img> Cursos</h3>
-                        <h3 className="average-sans "> <img className="imgage" src="/src/assets/images/setaEsquerda.png"></img> Notícias</h3>
-                        <h3 className="average-sans "> <img className="imgage" src="/src/assets/images/setaEsquerda.png"></img> Conhecimento</h3>
+                        <h3 className="average-sans "> <img className="imgage" src="/images/setaEsquerda.png"></img> Cursos</h3>
+                        <h3 className="average-sans "> <img className="imgage" src="/images/setaEsquerda.png"></img> Notícias</h3>
+                        <h3 className="average-sans "> <img className="imgage" src="/images/setaEsquerda.png"></img> Conhecimento</h3>
                     </div>
                     <div>
                         <Link to ={'/quemsomos'} onClick={() => window.scrollTo(0, 0)}>
@@ -30,7 +30,7 @@ export default function Inicio() {
                     </div>
                 </div>
                 <div className="tudo-img">
-                    <img className="img" src="/src/assets/images/senhora.png" />
+                    <img className="img" src="/images/senhora.png" />
                 </div>
             </div>
         </div>

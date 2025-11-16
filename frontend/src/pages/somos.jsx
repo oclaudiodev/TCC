@@ -11,12 +11,12 @@ import '/src/assets/fonts/fonts.scss';
 export default function Somos() {
 
   const parceiros = [
-    { img: "/src/assets/images/parceiro1.png" },
-    { img: "/src/assets/images/parceiro2.png" },
-    { img: "/src/assets/images/parceiro3.png" },
-    { img: "/src/assets/images/parceria4.png" },
-    { img: "/src/assets/images/parceria5.png" },
-    { img: "/src/assets/images/parceria6.png" }
+    { img: "/images/parceiro1.png" },
+    { img: "/images/parceiro2.png" },
+    { img: "/images/parceiro3.png" },
+    { img: "/images/parceria4.png" },
+    { img: "/images/parceria5.png" },
+    { img: "/images/parceria6.png" }
   ];
 
   const [visibleCards, setVisibleCards] = useState(3);
@@ -69,11 +69,11 @@ export default function Somos() {
   }, []);
 
   const colab2 = [{
-    "imagem": <img src="src/assets/images/Andre.jpeg" alt='imagem' />,
+    "imagem": <img src="/images/Andre.jpeg" alt='imagem' />,
     "nome": "André",
     "descricao": "Full-stack e UI/UX"
   }, {
-    "imagem": <img src="src/assets/images/claudio.jpg" alt='imagem' />,
+    "imagem": <img src="/images/claudio.jpg" alt='imagem' />,
     "nome": "Claudio",
     "descricao": "Full-stack e UX"
   }]
@@ -81,16 +81,16 @@ export default function Somos() {
 
   const colab = [
     {
-      "imagem": <img src="src/assets/images/eu.jpeg" alt='imagem' />,
+      "imagem": <img src="/images/eu.jpeg" alt='imagem' />,
       "nome": "Gustavo Lana",
       "descricao": "Full-stack e Web Designer"
     },
     {
-      "imagem": <img src="src/assets/images/Pedro.jpeg" alt='imagem' />,
+      "imagem": <img src="/images/Pedro.jpeg" alt='imagem' />,
       "nome": "Pedro Lima",
       "descricao": "Front-end analista de dados"
     }, {
-      "imagem": <img src="src/assets/images/noticia14.png" alt='imagem' />,
+      "imagem": <img src="/images/noticia14.png" alt='imagem' />,
       "nome": "Gustavo Penha",
       "descricao": "Front-end e Pesquisador"
     }
@@ -114,7 +114,7 @@ export default function Somos() {
       </div>
       <div className="tud">
         <div>
-          <img src="/src/assets/images/qmsm1.jpg" height={445} />
+          <img src="/images/qmsm1.jpg" height={445} />
         </div>
         <div className="texto">
           <h1 className="josefin-sans">História do Conectando Gerações</h1>
@@ -140,7 +140,7 @@ export default function Somos() {
                 Além disso, o projeto busca promover a inclusão digital e a autonomia dos idosos, oferecendo um espaço acessível e acolhedor para que possam aprender, interagir e se sentir seguros no uso da tecnologia. Acreditamos que, com o apoio certo, cada pessoa pode se adaptar ao mundo digital e aproveitar seus benefícios — desde a comunicação com familiares até o acesso a serviços e informações online. Nosso objetivo é transformar o medo da tecnologia em encanto e curiosidade, fortalecendo a conexão entre gerações e construindo uma sociedade mais integrada e informada.
               </p>
             </div>
-            <img className="img" src="/src/assets/images/qmsm2.jpg" />
+            <img className="img" src="/images/qmsm2.jpg" />
           </div>
         </div>
       </div>
@@ -148,7 +148,7 @@ export default function Somos() {
       <div className="esquerda">
         <div>
           <Link to ={'/cursos'}>
-            <img src="/src/assets/images/curso4.png" height={400} width={500} />
+            <img src="/images/curso4.png" height={400} width={500} />
           </Link>
         </div>
         <div className="texto">
@@ -169,7 +169,7 @@ export default function Somos() {
       <div className=" direita">
         <div>
           <Link to={'/tdsntc'}>
-            <img src="/src/assets/images/noticia7.png" height={400} width={500} />
+            <img src="/images/noticia7.png" height={400} width={500} />
           </Link>
         </div>
         <div className="texto">

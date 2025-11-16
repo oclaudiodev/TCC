@@ -44,7 +44,7 @@ export default function TodasNoticias() {
             <div className='voltar-noticia'>
                 <Link to={"/"}>
                     <button className='voltar'>
-                        <img src="/src/assets/images/setaEsquerda.png" height={25} />
+                        <img src="/images/setaEsquerda.png" height={25} />
                     </button>
                     <p className='josefin-sans'>Voltar para a página Inicial</p>
                 </Link>

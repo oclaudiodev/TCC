@@ -17,7 +17,7 @@ export default function Rodape() {
       <div className="rodape-conteudo">
         <div className="colun">
           <div className="coluna logo">
-            <img src="/src/assets/images/logoVeio.png" />
+            <img src="/images/logoVeio.png" />
             <h3 className="josefin-sans">CONECTANDO GERAÇÕES</h3>
             <p className="average-sans">tobugadoanalise@gmail.com</p>
           </div>

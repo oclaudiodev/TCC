@@ -78,13 +78,13 @@ export default function Registrar() {
             <div className='voltar-registrar'>
                 <Link to={"/"} onClick={() => window.scrollTo(0, 0)}>
                     <button className='voltarReg'>
-                        <img src="/src/assets/images/setaEsquerda.png" height={25} />
+                        <img src="/images/setaEsquerda.png" height={25} />
                     </button>
                     <p className="average-sans">Voltar para a página Inicial</p>
                 </Link>
             </div>
             <div className='container-registrar'>
-                <img src="src/assets/images/logoVeio.png" height={350} alt="Logo" />
+                <img src="/images/logoVeio.png" height={350} alt="Logo" />
                 <div className='titulo-input'>
                     <h1 className='titulo josefin-sans'>CONECTANDO GERAÇÕES</h1>
 

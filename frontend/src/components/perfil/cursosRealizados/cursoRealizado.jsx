@@ -51,7 +51,7 @@ export default function Realizado() {
         <div className="sem-cursos">
           <h3 className="josefin-sans">Você ainda não concluiu nenhum curso</h3>
           <p className="average-sans">Veja as recomendações ao lado e comece um curso!</p>
-          <img src="/public/images/semconquista.png" height={200} />
+          <img src="/images/semconquista.png" height={200} />
 
         </div>
       )}

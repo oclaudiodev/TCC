@@ -17,7 +17,7 @@ export default function Parte2() {
         <div className="text">
           <img
             className="imga"
-            src="/src/assets/images/download (4).jpeg"
+            src="/images/download (4).jpeg"
             alt="Idosos aprendendo tecnologia"
           />
 

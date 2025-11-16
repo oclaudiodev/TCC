@@ -257,7 +257,7 @@ toast.error("Erro ao verificar conclusão do curso");    }
               <div className='voltar-cursos'>
                   <Link to={"/cursos"} onClick={() => window.scrollTo(0, 0)}>
                     <button className='voltarReg'>
-                      <img src="/src/assets/images/setaEsquerda.png" height={25} />
+                      <img src="/images/setaEsquerda.png" height={25} />
                     </button>
                     <p className="average-sans">Voltar para a página de Cursos</p>
                   </Link>

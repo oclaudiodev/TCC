@@ -59,7 +59,7 @@ export default function Conquistas() {
                     <div className="confira-container">
                         <h2 className="josefin-sans">Você não possui nenhuma conquista</h2>
                         <div className="img-conquista">
-            <img src="/public/images/semconquista.png" height={200} />
+            <img src="/images/semconquista.png" height={200} />
                         </div>
                     <div className="confira-cursos">
                         <h3 className="josefin-sans">Confira nossos cursos</h3>
