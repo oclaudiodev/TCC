@@ -10,4 +10,6 @@ api.use(cors());
 
 adicionarRotas(api);
 
-api.listen(process.env.PORTA, () => console.log("API subiu com sucesso"));
+const PORT = process.env.PORT || 3000; 
+
+api.listen(PORT, () => console.log("API subiu com sucesso"));
