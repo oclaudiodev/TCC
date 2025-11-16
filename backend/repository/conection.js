@@ -1,14 +1,23 @@
-import mysql2 from 'mysql2/promise'
+import mysql from 'mysql2/promise';
 import 'dotenv/config';
 
-
-const conection = await mysql2.createConnection({
+const pool = mysql.createPool({
   host: process.env.DB_HOST,
+  port: process.env.DB_PORT,
   user: process.env.DB_USER,
-  password: process.env.DB_PASSWORD,
-  database: process.env.DB_DATABASE
+  password: process.env.DB_PASS,
+  database: process.env.DB_NAME,
+  waitForConnections: true,
+  connectionLimit: 10,
+  queueLimit: 0
 });
 
-console.log("BD conectado!!")
+try {
+  const conn = await pool.getConnection();
+  console.log("MySQL conectado!");
+  conn.release();
+} catch (err) {
+  console.error("Erro ao conectar:", err);
+}
 
-export default conection
+export default pool;
